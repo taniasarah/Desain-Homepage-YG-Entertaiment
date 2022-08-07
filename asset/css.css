@@ -1,0 +1,350 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}/*Mencegah agar margin/padding menjadi tidak sesuai pada tiap halaman*/
+
+
+body {
+    background-color: #ECECEC;
+}/*Memberikan warna pada background body*/
+
+.navbar {
+   background-color: #F0F0F0; 
+}/*Memberikan warna pada background navbar*/
+
+.navbar-toggler{
+    background-color: #F0F0F0;
+    border: #F0F0F0;
+}/*Memberikan warna pada background dan border bagian button navbar apabila diperkecil*/
+
+.navbar-nav a{
+    color: black; /*agar berwarna hitam*/
+    font-weight: bold;/*agar tulisan bold*/
+    text-decoration: none;/*menghilangkan garis dibawah*/
+    font-size: 18px;/*Ukuran font*/
+    font-family: 'Trebuchet MS', sans-serif;/*Jenis font*/
+    padding: 15px;/*untk memberikan spasi antar konten dengan border*/
+}
+
+.navbar-nav a:hover{
+    color: slategrey;
+}/*Memberikan efek hover yang apabila diklik akan berubah warna*/
+
+.navbar-brand img{
+    padding: 3px;
+}/*Memberikan jarak gambar dengan border*/
+
+.vibe {
+    width: 100%;/*Agar gambar dapat responsive dengan ukuran lebar 100%*/
+    height: 48vh; /*Memberikan ketentuan pada gambar dengan tinggi 48vh dan membuat element menjadi responsive*/
+    border: 0px;/*agar tidak ada boreder atau garis tepi pada gambar*/
+    background: url('https://i.ibb.co/f936qQZ/YG-symbol-A.png');/*Memberikan background gambar pada bagian Vibe*/
+    background-repeat: no-repeat;/*Agar gambar tidak berulang*/
+    background-size: 100% 100%;/*Size untuk background gambar*/
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+
+}/*Untuk gambar pada bagian carousel*/
+ 
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;/*memberikan ketentuan lebar*/
+	height: 10px;/*memberikan ketentuan tinggi*/
+    border-radius: 100%; /*agar li menjadi bulat*/
+    left: 15%;/*agar berjarak dari kiri*/
+}/*Untuk bagian ul li pada careousel*/
+
+.carousel-indicators li {	
+    background: rgb(53, 52, 52);
+}/*Memberikan warna backgrouund*/
+
+.carousel-indicators li.active {
+	background: white;    
+    border-color: black;    
+}/*Memberikan warna background dan border pada li yang sedang terslide*/
+
+.content{
+  position: absolute; /*agar teks dapat berdampingan dengan element ul li*/
+  bottom: 0;/*agar tidak ada jarak dibawah*/
+  background: rgba(0, 0, 0, 0.7);/*memberikan warna pada background pagian teks dengan opacity 0.7*/
+  font-weight: 400;/*memberikan ketebaln pada teks*/
+  color: #f1f1f1;/*memberikan warna pada teks*/
+  width: 100%;/*memberikan ukuran pada content*/
+}/*Teks dan background pada bagian carousel*/
+
+.content p{
+    font-family:'Segoe UI', sans-serif;/*jenis font*/
+    padding-left: 40px;/*untuk mengatur margin left*/
+    padding-top: 10px;/*untuk mengatur margin atas*/
+}
+
+.slideshow-container {/*slideshow pada bagian mv*/
+    width: 100%;/*memberikan ketentuan lebar*/
+    height: 100vh;/*memberikan ketentuan tinggi*/
+    background: url('https://i.ibb.co/f936qQZ/YG-symbol-A.png');/*background image pada bagian mv*/
+    background-repeat: no-repeat;/*agar gambar tidak terulang*/
+    background-size: 100% 100%;/*size gambar*/
+    position: relative;
+    margin: auto;/*margin pada slideshow auto*/
+    border: 0px;
+}
+
+.slideshow-container h1{/*teks pada bagian mv*/
+    color: black;/*memberikan ketentuan warna*/
+    font-weight: bold;/*agar tulisan bold*/
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;/*agar tulisan berada ditengah*/
+    padding-top: 8%;
+}
+
+.prev, .next {/*tombol next dan prev*/
+    cursor: pointer;/*mendifinisikan tipe cursor*/
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    opacity: 0.4;
+  }
+  
+.prev{
+    left: 16%;/*agar panah berjarak dari kiri*/
+}
+
+.next {
+    right: 16%;/*agar panah berjarak dari kanan*/
+}
+
+  
+/* caption pada bagian mv */
+.text {
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  
+.VideoSlides {/*agar video berada ditengah*/
+    text-align: center;
+    padding-top: 5%;
+}
+  
+#grup {/*memberikan ketentuan teks pada bagian nama grup di mv*/
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#judul {/*memberikan ketentuan teks pada bagian judul di mv*/
+    color: black;
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#footer {/*memberikan ketentuan pada bagian footer*/
+    padding: 1px 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#footer img {/*memberikan ketentuan pada image dibagian footer*/
+    width: 100px;
+    margin-top: 1px;
+}
+
+#caps1{/*memberikan ketentuan teks pada bagian teks disebelah kiri*/
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 12px;
+}
+
+#caps2 {/*memberikan ketentuan teks pada bagian teks pada bagian icon*/
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    margin-top: -40px;
+    margin-right: 10px;
+    
+}
+
+
+#footer .social-links a {/*memberikan ketentuan teks pada bagian icon*/
+    display: inline-block;/*agar bersusun kesamping*/
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    margin-top: -50px;
+    
+}
+
+/*memberikan ketentuan pada bagian icon*/
+.social-links .youtube{
+    background-color: #FF0000;
+    font-size: 20px;
+    margin: 15px 0;
+    
+
+} 
+
+.social-links .facebook{
+    background-color: #3B5998;
+    font-size: 20px;
+}
+
+.social-links .weibo{
+    background-color: #DF2029;
+    font-size: 20px;
+}
+
+.social-links .twitter{
+    background-color: #00ACEE;
+    font-size: 20px;
+}
+
+.social-links .instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    font-size: 20px;
+}
+
+/*memberikan ketentuan pada bagian view*/
+.bg{
+    width: 100%;
+    height: 93vh;
+    background: url('https://i.ibb.co/f936qQZ/YG-symbol-A.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -1%;
+}
+
+th, td{/*memberikan ketentuan teks pada tabel*/
+    background-color: #3D3A3A;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container a{/*memberikan ketentuan pada teks*/
+    font-family: 'Trebuchet MS', sans-serif;
+    color:white;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.container{
+    padding: 10%;
+    margin-top: 10px;
+}
+
+/*memberikan ketentuan teks pada button*/
+.button{
+    margin-left: 37%;
+    margin-top: -5%;
+}
+
+.button button {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    background-color: #e1e1e1;
+    padding: 8px;
+    text-align: center;
+    border-radius: 50px;
+    width: 40%;
+    border: none;
+    border: 2px solid #555555;  
+}
+
+.button button:hover { /*agar button memiliki efe perubahan warna ketika diklik*/
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button a{/*memberikan ketentuan teks pada button*/
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*memberikan ketentuan pada bagian crud*/
+.insert {
+    width: 100%;
+    height: 93vh;
+    background: url('https://i.ibb.co/f936qQZ/YG-symbol-A.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -1%;
+}
+
+.crud{
+    text-align: center;
+    padding: 13%;
+}
+
+label{
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+input {
+    width: 30%;
+    margin-left: 10%;
+
+}
+
+#myfile{
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.button2{
+    margin-left: 45%;
+    margin-top: -5%;
+}
+
+.button2 button {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    padding: 8px;
+    text-align: center;
+    border-radius: 50px;
+    width: 20%;
+    border: none;
+    
+}
+
+.button2 button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2 a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}

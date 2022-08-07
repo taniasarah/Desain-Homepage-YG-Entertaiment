@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <!-- Main CSS File -->
+    <link href="asset/css.css" rel="stylesheet" type="text/css">
+
+    <title>Beranda</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light"> <!-- Navbar yang menggunakan boostrap 4-->
+      <a class="navbar-brand" href="index.html"> <!-- Agar gambar pada navbar dapat diklik dan mengarah ke halaman utama -->
+
+        <!-- link mengrah ke url image dengan width 200 dan class d-inline-block agar dapat berjajar dengan teks dan slign top agar posisi diatas -->
+        <img src="https://i.ibb.co/KDZ3hJC/YG-ENTERTAINMENT-signature-B.png" alt="YG-ENTERTAINMENT-signature-B" border="0" width="200" class="d-inline-block align-top">
+      </a>
+
+      <!-- Code bs untuk button navbar apabila halaman diperkecil -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto"><!-- class agar teks pada navbar berposisi di kiri -->
+          <li><a href="#">HOME</a></li><!-- code untuk pilihan menu -->
+          <li><a href="#">NOTICE</a></li>
+          <li><a href="#">FAMILY</a></li>
+          <li><a href="#">SELECT</a></li>
+          <li><a href="#">AUDITION</a></li>
+          <li><a href="#">RECRUIT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<!-- Akhir dari navbar -->
+
+  <!-- Vibe section -->
+   <!-- Code untuk gambar dibagian setelah navbar -->
+  <div class="hero-container"> 
+    <div class="vibe">
+
+       <!-- class agar image dapat responsiv dan berada ditengah-->
+      <img class ="image img-fluid mx-auto d-block" src="https://i.ibb.co/hHPZ7Kn/YG-Statement-B.png" style="width: 490px; padding: 45px; border: 0;">
+    </div>
+
+    <!-- Album section -->
+    <!-- Code untuk bagian album yang menggunakan carousel -->
+  <div class="album-container">
+    <div id ="slide" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators justify-content-end">
+      <li data-target="#slide" data-slide-to="0" class="active"></li>
+      <li data-target="#slide" data-slide-to="1"></li>
+      <li data-target="#slide" data-slide-to="2"></li>
+      <li data-target="#slide" data-slide-to="3"></li>
+    </ul> 
+  
+    <!-- Code pada gambar album di carousel -->
+    <div class="carousel-inner">  
+      <div class="carousel-item active">
+        <img src="https://i.ibb.co/xH1fRfk/bplove.png" alt="bplove" border="0">
+          <div class="content">
+            <p class="text-left">BLACKPINK 1ST FULL ALBUM : [THE ALBUM]</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ibb.co/RvnJ8LD/akmuhap.png" alt="akmuhap" border="0">
+          <div class="content">
+            <p class="text-left">AKMU 3rd SINGLE : [HAPPENING]</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ibb.co/WxpnvSR/treasure.png" alt="treasure" border="0">
+          <div class="content">
+            <p>TREASURE THE FIRST STAGE : [TREASURE EFFECT]</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ibb.co/37v7CTk/runmino.png" alt="runmino" border="0">
+          <div class="content">
+            <p>MINO 2ND FULL ALBUM TAKE : [RUN AWAY]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Akhir Vibe section -->
+
+    <!-- MV section -->
+    <!-- Code pada bagian mv yang menggunakan slideshow -->
+    <div class="slideshow-container">
+      <h1>MUSIC VIDEOS</h1>
+        <div class="VideoSlides">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/dyRsYk0LyA8" frameborder="0" allowfullscreen></iframe>
+          <div class="text">
+          <p id ="grup">BLACKPINK</p>
+          <p id="judul">LOVESICK GIRLS - MV</p>
+          </div>
+        </div>
+        
+        <div class="VideoSlides">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/wgVyY-snqd4" frameborder="0" allowfullscreen></iframe>
+          <div class="text">
+          <p id ="grup">AKMU</p>
+          <p id="judul">HAPPENING - MV</p>
+          </div>
+        </div>
+        
+        <div class="VideoSlides">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/1eWm7NwjGco" frameborder="0" allowfullscreen></iframe>
+          <div class="text">
+          <p id ="grup">MINO</p>
+          <p id="judul">RUN AWAY - MV</p>
+          </div>
+        </div>
+        
+        <div class="VideoSlides">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/_hFarg-Obuc" frameborder="0" allowfullscreen></iframe>
+          <div class="text">
+          <p id ="grup">TREASURE</p>
+          <p id="judul">I LOVE YOU - MV</p>
+          </div>
+        </div>
+        
+        <div class="VideoSlides">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MBNQgq56egk" frameborder="0" allowfullscreen></iframe>
+          <div class="text">
+          <p id ="grup">BIGBANG</p>
+          <p id="judul">SOBER - MV</p>
+          </div>
+        </div>
+        
+        <div class="VideoSlides">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vRXZj0DzXIA" frameborder="0" allowfullscreen></iframe>
+         <div class="text">
+         <p id ="grup">BLACKPINK ft SELENA GOMEZ</p>
+          <p id="judul">ICE CERAM - MV</p>
+         </div>
+        </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a><!-- Code untuk panah prev pada bagian mv -->
+          <a class="next" onclick="plusSlides(1)">&#10095;</a><!-- Code untuk panah next pada bagian mv -->
+      </div>
+ <!-- Akhir MV Section -->  
+ 
+ 
+<!-- Footer -->
+<footer id="footer">
+  <img src="https://i.ibb.co/6FcNX8c/YG-symbol-W.png" alt="YG-symbol-W" border="0" class="rounded float-left"><!-- code untuk gambar di footer yang responsive dan berposisi di kiri -->
+    <p id="caps1">YG ENTERTAINMENT 의 모든 컨텐츠는 저작권의 보호를 받고 있습니다.<br>Copyright YG Entertainment All Rights Reserved.</p>
+    <div class="social-links d-flex flex-row-reverse"><!-- Class agar icon berada di posisi horizontal bagian kanan -->
+      <!-- Link sosial media dengan icon dari fontawesome -->
+      <a href="http://www.instagram.com/yg_ent_official" target="blank" class="instagram"><i class="fab fa-instagram"></i></a>
+      <a href="http://twitter.com/ygent_official" target="blank" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="http://www.weibo.com/ygfamilyofficial" target="blank" class="weibo"><i class="fab fa-weibo"></i></a>
+      <a href= "http://www.facebook.com/ygfamily" target="blank" class="facebook"><i class="fab fa-facebook-square"></i></a>
+      <a href= "http://www.youtube.com/YGEntertainment" target="blank" class="youtube"><i class="fab fa-youtube"></i></a>
+      <p id="caps2">OFFICIAL YG ENTERTAINMENT SOCIAL NETWORK</p>
+  </div>
+</footer>
+<!-- End Footer -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- JS dari BS untuk pemakaian element-element yang digunakan seperti carousel dan navbar -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- Script untuk video-slides -->
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("VideoSlides");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+  
+    slides[slideIndex-1].style.display = "block";  
+  }
+  </script>

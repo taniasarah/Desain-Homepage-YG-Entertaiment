@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Main CSS File -->
+    <link href="asset/css.css" rel="stylesheet" type="text/css">
+
+    <title>View Data</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light"> <!-- Navbar yang menggunakan boostrap 4-->
+      <a class="navbar-brand" href="index.html"> <!-- Agar gambar pada navbar dapat diklik dan mengarah ke halaman utama -->
+
+        <!-- link mengrah ke url image dengan width 200 dan class d-inline-block agar dapat berjajar dengan teks dan slign top agar posisi diatas -->
+        <img src="https://i.ibb.co/KDZ3hJC/YG-ENTERTAINMENT-signature-B.png" alt="YG-ENTERTAINMENT-signature-B" border="0" width="200" class="d-inline-block align-top">
+      </a>
+
+      <!-- Code bs untuk button navbar apabila halaman diperkecil -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto"><!-- class agar teks pada navbar berposisi di kiri -->
+          <li><a href="#">HOME</a></li><!-- code untuk pilihan menu -->
+          <li><a href="#">NOTICE</a></li>
+          <li><a href="#">FAMILY</a></li>
+          <li><a href="#">SELECT</a></li>
+          <li><a href="#">AUDITION</a></li>
+          <li><a href="#">RECRUIT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<!-- Akhir dari navbar -->
+
+  <!-- Tabel -->
+      <div class="bg">
+        <div class="container table-responsive-sm"><!-- Agar tabel responsive sampai ukuran width pada layar <576px-->            
+            <table class="table table-bordered"><!-- Agar tabel bergaris(border) -->
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Judul</th>
+                  <th>Image</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1.</td>
+                  <td>Blackpink 1ST FULL ALBUM : [THE ALBUM]</td>
+                  <td>bplove.png</td>
+                  <td><a href="#">Edit</a><a href="#">Delete</a></td><!-- Code yang nantinya untuk melakukan crud -->
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Akmu 3rd SINGLE : [HAPPENING]</td>
+                  <td>akmuhap.png</td>
+                  <td><a href="#">Edit</a><a href="#">Delete</a></td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>Treasure THE FIRST STAGE :  [TRESURE EFFECT]</td>
+                  <td>treasure.png</td>
+                  <td><a href="#">Edit</a><a href="#">Delete</a></td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Mino 2ND FULL ALBUM TAKE : [RUN AWAY] </td>
+                    <td>runmino.png</td>
+                    <td><a href="#">Edit</a><a href="#">Delete</a></td>
+                  </tr>
+              </tbody>
+            </table>
+          </div> 
+          
+          <!-- Button untuk insert -->
+          <div class="button">
+            <button type="button"><a href="crud.html">Insert</button></a>
+        </div>
+    </div>
+<!-- Akhir dari Tabel -->
+
+      
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Main CSS File -->
+    <link href="asset/css.css" rel="stylesheet" type="text/css">
+
+    <title>CRUD</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light"> <!-- Navbar yang menggunakan boostrap 4-->
+        <a class="navbar-brand" href="index.html"> <!-- Agar gambar pada navbar dapat diklik dan mengarah ke halaman utama -->
+  
+          <!-- link mengrah ke url image dengan width 200 dan class d-inline-block agar dapat berjajar dengan teks dan slign top agar posisi diatas -->
+          <img src="https://i.ibb.co/KDZ3hJC/YG-ENTERTAINMENT-signature-B.png" alt="YG-ENTERTAINMENT-signature-B" border="0" width="200" class="d-inline-block align-top">
+        </a>
+  
+        <!-- Code bs untuk button navbar apabila halaman diperkecil -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto"><!-- class agar teks pada navbar berposisi di kiri -->
+            <li><a href="#">HOME</a></li><!-- code untuk pilihan menu -->
+            <li><a href="#">NOTICE</a></li>
+            <li><a href="#">FAMILY</a></li>
+            <li><a href="#">SELECT</a></li>
+            <li><a href="#">AUDITION</a></li>
+            <li><a href="#">RECRUIT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  <!-- Akhir dari navbar -->
+
+  <!-- Insert data -->
+  <!-- Bagian insert yang menggunakan form -->
+  <div class="insert">
+    <form class="crud">
+        <label>Judul</label><!-- Insert data untuk bagian judul dengan type text -->
+        <input type="text" name="judul" required></br></br></br></br>
+
+        <label id="gambar">Image</label><!-- Insert data bagian img dengan type file-->
+        <input type="file" id="myfile" name="myfile">
+        </form>
+
+        <div class="button2"><!-- Button bagian submit -->
+            <button type="button"><a href="#">Submit</button></a>
+        </div>
+  </div>
+<!-- Akhir Insert data -->
+
+  
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
