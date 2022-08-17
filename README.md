@@ -10,5 +10,9 @@
 
 # ScreenShot
 ![Beranda](ss/Beranda.jpeg)
+<br>
+
 ![View](ss/View.jpeg)
+<br>
+
 ![Insert](ss/Insert.jpeg)
